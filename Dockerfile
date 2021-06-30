@@ -14,4 +14,4 @@ ENV DESIRED_VERSION $DESIRED_VERSION
 ENV LD_LIBRARY_PATH "/mnt/git/opt/python/3.9.1/lib/"
 RUN useradd -u 1000 noroot
 USER noroot
-COPY test /home
+COPY test /mnt/git/opt/python/
